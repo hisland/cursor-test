@@ -1,0 +1,21 @@
+{
+  "name": "pnpm-monorepo",
+  "version": "1.0.0",
+  "description": "PNPM Monorepo with Portal, DLF, and ACRSA modules",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --recursive dev",
+    "build": "pnpm --recursive build",
+    "test": "pnpm --recursive test",
+    "lint": "pnpm --recursive lint",
+    "clean": "pnpm --recursive clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
